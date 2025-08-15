@@ -28,7 +28,7 @@ button {
 button:hover {
     background-color: #f72e06;
 }
-input[type="text"] {
+input[type="text"], input[type="email"] {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;

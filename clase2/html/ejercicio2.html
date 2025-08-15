@@ -21,10 +21,14 @@
                 <p>Este es un ejemplo de una página HTML simple.</p>
             </div>
             <div class="col-4 columna2">
-                <label for="input1">Digite nombre:</label>
-                <input type="text" id="input1" name="input1">
+                <form>
+                    <label for="input1">Digite nombre:</label>
+                    <input type="text" id="input1" name="input1"><br>
+                    <label for="correo">Digite correo:</label>
+                    <input type="email" name="correo" id="correo"><br>
 
-                <button type="button" onclick="mostrarMensaje()">Enviar</button>
+                    <button type="button" onclick="validarInformacion()">Enviar</button>
+                </form>
             </div>
         </div>
     </div>
